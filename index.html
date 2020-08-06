@@ -1,7 +1,23 @@
 <head>
     <link rel="stylesheet" type="text/css" href="index.css">
 </head>
+<!--연금 나이 col 36개-->
 <body>
+    
+    <script>
+        const GRAPH_SAMPLE=`
+                <li class="graph_column unactive_column">
+                    <div class="graph_element" style="background-color: blue;"></div>
+                    <div class="graph_element" style="background-color: violet;"></div>
+                </li>
+            `
+        window.onload=()=>{
+            const WRAPPER=document.getElementsByClassName('graph_wrapper')[0];
+            for(let i=0;i<35;i++){
+                WRAPPER.innerHTML+=GRAPH_SAMPLE;
+            }
+        }
+    </script>
     <div class="main_container">
         <section class="graph_container">
             <ul class="graph_wrapper">
@@ -9,60 +25,6 @@
                     <div class="graph_element" style="background-color: blue;"></div>
                     <div class="graph_element" style="background-color: orange;"></div>
                 </li>
-                <li class="graph_column unactive_column">
-                    <div class="graph_element" style="background-color: blue;"></div>
-                    <div class="graph_element" style="background-color: violet;"></div>
-                </li>
-                <li class="graph_column unactive_column">
-                    <div class="graph_element" style="background-color: blue;"></div>
-                    <div class="graph_element" style="background-color: violet;"></div>
-                </li>
-                <li class="graph_column unactive_column">
-                    <div class="graph_element" style="background-color: blue;"></div>
-                    <div class="graph_element" style="background-color: violet;"></div>
-                </li>
-                <li class="graph_column unactive_column">
-                    <div class="graph_element" style="background-color: blue;"></div>
-                    <div class="graph_element" style="background-color: violet;"></div>
-                </li>
-                <li class="graph_column unactive_column">
-                    <div class="graph_element" style="background-color: blue;"></div>
-                    <div class="graph_element" style="background-color: violet;"></div>
-                </li>
-                <li class="graph_column unactive_column">
-                    <div class="graph_element" style="background-color: blue;"></div>
-                    <div class="graph_element" style="background-color: violet;"></div>
-                </li>
-                <li class="graph_column unactive_column">
-                    <div class="graph_element" style="background-color: blue;"></div>
-                    <div class="graph_element" style="background-color: violet;"></div>
-                </li>
-                <li class="graph_column unactive_column">
-                    <div class="graph_element" style="background-color: blue;"></div>
-                    <div class="graph_element" style="background-color: violet;"></div>
-                </li>
-                <li class="graph_column unactive_column">
-                    <div class="graph_element" style="background-color: blue;"></div>
-                    <div class="graph_element" style="background-color: violet;"></div>
-                </li>
-                <li class="graph_column unactive_column">
-                    <div class="graph_element" style="background-color: blue;"></div>
-                    <div class="graph_element" style="background-color: violet;"></div>
-                </li>
-                <li class="graph_column unactive_column">
-                    <div class="graph_element" style="background-color: blue;"></div>
-                    <div class="graph_element" style="background-color: violet;"></div>
-                </li>
-                <li class="graph_column unactive_column">
-                    <div class="graph_element" style="background-color: blue;"></div>
-                    <div class="graph_element" style="background-color: violet;"></div>
-                </li>
-                <li class="graph_column unactive_column">
-                    <div class="graph_element" style="background-color: blue;"></div>
-                    <div class="graph_element" style="background-color: violet;"></div>
-                </li>
-            
-            
             </ul>
         </section>
     </div>
