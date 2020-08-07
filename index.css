@@ -23,7 +23,7 @@ html,body{
     position: relative;
 }
 .graph_wrapper{
-    /* 스크롤 그래프 구현하고 싶을 때 해제
+    /* 스크롤 그래프 구현하고 싶을 
      position: absolute; 
     */
     display: flex;
@@ -46,7 +46,7 @@ html,body{
 }
 .graph_element{
     width:100%;
-    height:20%;
+    /* height:20%; */
     border-radius:0.3rem;
     margin: 0.1rem 0;
 }
