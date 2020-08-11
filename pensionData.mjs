@@ -47,4 +47,6 @@ const CUSTOMERS=[
             }
         ] 
     }
-]
+];
+
+export {CUSTOMERS};

@@ -1,6 +1,6 @@
 
-import './pensionData.js'
-import './chartColor.js'
+import {CUSTOMERS} from './pensionData.mjs'
+import {COLORS} from './chartColor.mjs'
 
 window.onload=()=>{
     CUSTOMERS.forEach(customer=>{
