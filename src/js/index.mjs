@@ -23,11 +23,13 @@ window.onload=()=>{
     const COLUMNS=document.getElementsByClassName('graph_column')
     COLUMNS[7].classList.remove('unactive_column')
     COLUMNS[7].classList.add('active_column')
-    // for(let i=0; i<COLUMNS.length;i++){
-    //     if(COLUMNS[i].hasChildNodes()){
-    //         COLUMNS[i].classList.remove('unactive_column')
-    //         COLUMNS[i].classList.add('active_column')
-    //         break;
-    //     }
-    // }
+    /* 
+    for(let i=0; i<COLUMNS.length;i++){
+        if(COLUMNS[i].hasChildNodes()){
+            COLUMNS[i].classList.remove('unactive_column')
+            COLUMNS[i].classList.add('active_column')
+            break;
+        }
+    }
+    */
 }
