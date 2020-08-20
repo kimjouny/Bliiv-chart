@@ -25,24 +25,26 @@
 
 .chartJS_spendline{
   position:absolute;
-  top:40%;
+  top:60%;
   border:none;
   color:rgba(255, 255, 255, 0);
   width:100%;
   height:1px;
   border-top:1rem dashed rgba(255, 193, 3, 0.4);
+  transition:top 1s;
 }
 
 .chartJS_spendtext{
   border-radius:3rem;
   position:absolute;
-  top:40%;
+  top:60%;
   padding:2rem;
   font-size:4rem;
   background-color:rgba(255, 193, 3, 0.4);
   left:5%;
   transform:translateY(-35%);
   color:white;
+  transition:top 1s;
 }
 
 .chartJS_agecontainer{
@@ -72,6 +74,7 @@
   padding: 3% 0;
   font-size: 4rem;
   border-radius: 2rem;
+  transition:background-color 0.5s;
 }
 
 .edit_spend{
@@ -84,13 +87,18 @@
   background-color:#887a64;
 }
 
+.edit_selected{
+  background-color:white
+}
+
 .chartJS_spend_container{
   margin-top:3%;
   width:100%;
-  display:flex;
   flex-direction: column;
   align-items: center;
-
+  display:none;
+  opacity:1;
+  transition: transform, opacity 1s;
 }
 
 .chartJS_spend_wrapper{
@@ -147,6 +155,7 @@
   background-color:white;
   border-radius: 2rem;
   border: 1px solid silver;
+  transition: background-color 0.7s;
 }
 
 .spend_selected{
