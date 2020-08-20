@@ -2,5 +2,52 @@
     height: 0%;
     margin: 0%;
     width: 100%;
-    /* padding-top: 20%; */
+    height:auto;
+    position: relative;
   }
+
+.chartJS_wrapper{
+  position:relative;
+  padding:10% 0%;
+  border-radius: 3rem;
+  background-color: #f0e1ca;
+}
+
+.chartJS_text{
+  margin-left:5%;
+  font-size:6rem;
+  color:#675b43;
+  margin-bottom:20rem;
+}
+
+.chartJS_spendline{
+  position:absolute;
+  top:40%;
+  border:none;
+  color:rgba(255, 255, 255, 0);
+  width:100%;
+  height:1px;
+  border-top:1rem dashed rgba(255, 193, 3, 0.4);
+}
+
+.chartJS_spendtext{
+  border-radius:3rem;
+  position:absolute;
+  top:40%;
+  padding:2rem;
+  font-size:4rem;
+  background-color:rgba(255, 193, 3, 0.4);
+  left:5%;
+  transform:translateY(-35%);
+  color:white;
+}
+
+.chartJS_agecontainer{
+  display:flex;
+  font-size:3rem;
+  list-style:none;
+  justify-content: space-between;
+  padding:0 0.5%;
+  color:#675b43;
+  font-weight: bold;
+}

@@ -16,8 +16,6 @@ for(let i=0;i<CUSTOMERS[0].pensions.length;i++){
         dataset[j]+=CUSTOMERS[0].pensions[i].receipts[j];
     }
 }
-console.log(dataset)
-
 
 var data = {
   labels: Array.apply(null, Array(numDataPoints)).map(function() {
